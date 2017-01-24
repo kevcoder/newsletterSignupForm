@@ -24,6 +24,9 @@ h2{
 	font-size: 1.8em;
 	font-weight: 500;
 }
+p{
+
+}
 .info-text{
 	color: #D3D3D3;
 	font-size: 1.3em;
@@ -33,6 +36,7 @@ h2{
 	margin-top: -3%;
 	line-height: 1.5;
 }
+
 hr{
 	width: 95%;
 	height: 5px;
