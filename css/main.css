@@ -1,0 +1,54 @@
+/*============================
+					Base Styles
+==============================*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+	color:  #306491;
+  font-size: 16px;
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.main-container{
+	text-align: center;
+}
+h2{
+	font-size: 1.8em;
+	font-weight: 500;
+}
+.info-text{
+	color: #D3D3D3;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin-right: 20%;
+	margin-left: 21%;
+	margin-top: -3%;
+	line-height: 1.5;
+}
+hr{
+	width: 95%;
+	height: 5px;
+	background-color: #306491;
+}
+/*============================
+					Media Queries
+==============================*/	
+@media(min-width: 320px){
+	header{
+		background-color: #306491;
+		padding:10px;
+	}
+}
+@media(min-width: 768px){
+	header{
+		background-color: pink;
+	}
+}
