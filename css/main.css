@@ -46,9 +46,42 @@ hr{
 		background-color: #306491;
 		padding:10px;
 	}
+	label{
+		width: 30%;
+		display: block;
+		border: 1px solid red;
+	}
+	input{
+		width: 95%;
+		border: none;
+		border-radius: 5px;
+		padding: 25px;
+		background-color: rgba(243, 236, 236, 0.7); 
+
+	}
 }
 @media(min-width: 768px){
 	header{
 		background-color: pink;
 	}
+	label{
+		display: inline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
