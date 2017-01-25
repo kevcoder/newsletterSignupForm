@@ -21,6 +21,10 @@ h2{
 	font-size: 1.8em;
 	font-weight: 600;
 }
+h3{
+	font-weight: 400;
+	margin-left: 2%
+}
 .heading{
 	text-align: center;
 }
@@ -53,9 +57,35 @@ input[placeholder="Required"]{
 select{
 	border: none;
 }
-input[name="user_zip"]{
+input[name="zip"]{
 	width: 40%;
+	margin-bottom: 5%;
 }
+textarea{
+	width: 95%;
+	height: 100px;
+	margin-left: 2%;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(243, 236, 236, 0.7); 
+}
+button{
+	
+	width: 75%;
+	height: 50px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+}
+button[type="submit"]{
+	margin: 10px;
+}
+footer{
+	text-align: center;
+}
+
 /*============================
 					Media Queries
 ==============================*/	
@@ -67,7 +97,7 @@ input[name="user_zip"]{
 	h1{
 		font-size: 2em;
 	}
-	label{
+	.form-label{
 		width: 50%;
 		display: block;
 		margin-left: 2%;
@@ -78,40 +108,62 @@ input[name="user_zip"]{
 	}
 	input{
 		width: 95%;
-		
-		
 		padding: 16px;
-		
 		margin-left: 2%;
 	}
 
+
 	select{
-		width: 50%;
-		margin-left: 2%
+		width: 25%;
+		margin-left: 2%;
 	}
 
-
+	.newsletter-text{
+		width: 30%;
+		border: 1px red solid;
+		vertical-align: top;
+		font-size: 10px;
+	}
+	
+	button{
+		margin-left: 5%;
+	}
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width: 768px){
 	header{
 		background-color: pink;
 	}
 	.main-container{
 		width: 768px;
+		margin: 0 auto;
 		border: 1px solid red;
 	}
 	h1{
 		font-size: 3em;
 	}
-	label{
-		display: inline;
+
+
+
+input[type="radio"]{
+		border: 1px solid red;
+		
 	}
-
-
-
+	
 
 
 

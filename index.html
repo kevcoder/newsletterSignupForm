@@ -32,22 +32,22 @@
 		<form action="index.html" method="post">
 			<h2 class="heading">Contact Information</h2>	
 			
-			<label for="name">FullName</label>
-			<input type="text" name="user_name" placeholder="Required">
+			<label for="name" class="form-label">FullName</label>
+			<input type="text" name="name" placeholder="Required">
 			
-			<label for="mail">Email</label>
-			<input type="email" id="mail" name="user_email" placeholder="Required">
+			<label for="mail" class="form-label">Email</label>
+			<input type="email" id="mail" name="mail" placeholder="Required">
 			
-			<label for="number">Phone Number</label>
-			<input type="email" id="number" name="user_email" >
+			<label for="number" class="form-label">Phone Number</label>
+			<input type="email" id="number" name="number" >
 			
-			<label>Street Address</label>
-			<input type="email" id="mail" name="user_email" >
+			<label for="address" class="form-label">Street Address</label>
+			<input type="email" id="mail" name="address" >
 			
-			<label>City</label>
-			<input type="email" id="mail" name="user_email">
+			<label for="city" class="form-label">City</label>
+			<input type="email" id="mail" name="city">
 			
-			<label>State</label>
+			<label for="state" class="form-label">State</label>
 			<select name="state">
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
@@ -101,25 +101,26 @@
 						<option value="WI">Wisconsin</option>
 						<option value="WY">Wyoming</option>
 						</select>
-			<label>Zip</label>
-			<input type="email" id="mail" name="user_zip">
+			<label for="zip" class="form-label">Zip</label>
+			<input type="email" id="mail" name="zip">
 			
 			<hr>
 			<h2 class="heading">Newsletter</h2>
-			<p>Select the newsletters you would like to recieve</p>
-						<input type="radio" name="user_html">HTML News
-						<input type="radio" name="user_css">CSS News
-						<input type="radio" name="user_javascript">Javascript News
+			<h3>Select the newsletters you would like to recieve</h3>
+						
+						<input type="radio" name="user_html"><label class="newsletter-text">HTML News</label>
+						<input type="radio" name="user_css"><label class="newsletter-text">CSS News</label>
+						<input type="radio" name="user_javascript"><label class="newsletter-text">Javascript News</label>
 
-			<p>Newsletter format</p>
+			<h3>Newsletter format</h3>
 					<input type="checkbox" name="">HTML
 					<input type="checkbox" name="">Plain text
 
-			<p>Other topics you'd like to hear about</p>
+			<h3>Other topics you'd like to hear about</h3>
 
 			<textarea id="other_topics" name="user_topics"></textarea>
 
-			<button type="submit">sign Up</button>
+			<button type="submit" class="submit-button">sign Up</button>
 		</form>
 	</main>
 			<!-- ============================
