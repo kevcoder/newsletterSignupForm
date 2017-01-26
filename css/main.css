@@ -105,7 +105,6 @@ footer{
 		background-color: #306491;
 		padding:10px;
 	}
-
 	h1{
 		font-size: 2em;
 	}
@@ -140,21 +139,26 @@ footer{
 	.newsletter-section{
 		width: 95%;
 		margin: 0 auto;
-		border: 1px solid red;
 	}
 	.newsletter-boxs{
 		width: 50%;
-		margin: 0 auto;
-		border: 1px solid black;
-
+	}
+	input[type="radio"]{
+		width: 0%;
+	}
+	input[type="checkbox"]{
+		width: 0%;
 	}
 	.newsletter-text{
-		border: 1px solid black;
+    font-size: 14px;
+    margin: 15px;
 	}
-
-
-
-	
+	h4{
+		width: 95%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 @media(min-width: 768px){
 	header{
@@ -189,14 +193,11 @@ footer{
 		display: inline-block;
 		width: 20%;
 		text-align: left;
-		
 	}
 	.contact-input{
 		width: 70%;
 		padding: 15px;
-
 	}
-
 /*============================
 			News Letter Section
 ==============================*/
