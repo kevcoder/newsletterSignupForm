@@ -50,8 +50,21 @@ input{
 	border-radius: 5px;
 	background-color: rgba(243, 236, 236, 0.7); 
 }
-input[placeholder="Required"]{
-	text-align: right;
+/*Placeholder text for first two input feilds in the contact form*/
+::-webkit-input-placeholder {
+   color: #B43E3C;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #B43E3C;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #B43E3C;  
+}
+
+:-ms-input-placeholder {  
+   color: #B43E3C;  
 }
 select{
 	border: none;
