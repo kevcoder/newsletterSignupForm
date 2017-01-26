@@ -122,17 +122,39 @@ footer{
 		padding: 16px;
 		margin-left: 2%;
 	}
-select{
+	select{
 		width: 25%;
 		margin-left: 2%;
 	}
-
-	.newsletter-text{
-		width: 30%;
-		border: 1px red solid;
-		vertical-align: top;
-		font-size: 10px;
+	input[name="zip"],
+	select[name="state"]{
+		margin-right: 30%;
 	}
+	
+	.block label{
+		display: inline-block;
+	}
+/*============================
+			News Letter Section
+==============================*/
+	.newsletter-section{
+		width: 95%;
+		margin: 0 auto;
+		border: 1px solid red;
+	}
+	.newsletter-boxs{
+		width: 50%;
+		margin: 0 auto;
+		border: 1px solid black;
+
+	}
+	.newsletter-text{
+		border: 1px solid black;
+	}
+
+
+
+	
 }
 @media(min-width: 768px){
 	header{
